@@ -1,0 +1,41 @@
+.container {
+  max-width: 1290px;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 5rem 0;
+}
+
+.movies {
+  display: grid;
+  gap: 5rem;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  color: #fff;
+}
+
+.movie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.movie__data {
+  width: 100%;
+}
+
+.movie img {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.movie__title {
+  margin-bottom: 1rem;
+  font-size: 1.7rem;
+}
+
+.movie__year {
+  margin-bottom: 1rem;
+}
+
+.movie__summary {
+  text-align: justify;
+}
