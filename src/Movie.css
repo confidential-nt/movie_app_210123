@@ -36,6 +36,15 @@
   margin-bottom: 1rem;
 }
 
+.movie__genres {
+  display: flex;
+  margin-bottom: 0.6rem;
+}
+
+.genres__genre:not(:last-child) {
+  margin-right: 0.8rem;
+}
+
 .movie__summary {
   text-align: justify;
 }
